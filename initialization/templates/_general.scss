@@ -1,0 +1,14 @@
+@use "k-scaffold/k";
+@use './variables/system';
+
+body{
+  @include k.variables;
+  @include system.variables;
+  &.sheet-darkmode{
+    @include k.darkMode;
+    @include system.darkVariables;
+  }
+}
+.ui-dialog .tab-content .charsheet{
+  @include k.defaultStyles;
+}

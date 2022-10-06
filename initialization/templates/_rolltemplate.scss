@@ -1,0 +1,10 @@
+@use 'k-scaffold/k';
+@use './variables/system';
+
+.sheet-rolltemplate-{{templateName}}{
+  @include k.variables;
+  @include system.variables;
+  // Place your roll template specific variables here
+  @include k.defaultRollStyling;
+  // Place your roll template styling here
+}
