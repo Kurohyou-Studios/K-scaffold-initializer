@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 const { execSync } = require('child_process');
-const { query, generate } = require('./initialization');
+const { query, generate } = require('./lib');
 
 const init = async ()=>{
   // execute project initialization
