@@ -6,14 +6,19 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "bin":{
-    "k-init":"./index.js"
+  "bin": {
+    "k-init": "./index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Kurohyou-Studios/K-scaffold-initializer.git"
   },
-  "keywords": ["Roll20","Character Sheets","Node","ECMAScript"],
+  "keywords": [
+    "Roll20",
+    "Character Sheets",
+    "Node",
+    "ECMAScript"
+  ],
   "author": "Scott Casey",
   "license": "ISC",
   "bugs": {
@@ -22,11 +27,11 @@
   "homepage": "https://github.com/Kurohyou-Studios/K-scaffold-initializer#readme",
   "dependencies": {
     "colors": "^1.4.0",
-    "inquirer": "^8.2.3",
-    "handlebars": "^4.7.7"
+    "handlebars": "^4.7.7",
+    "inquirer": "^8.2.3"
   },
   "devDependencies": {
-    "jsdoc": "^3.6.11",
-    "jest": "^29.1.2"
+    "jest": "^29.1.2",
+    "jsdoc": "^3.6.11"
   }
 }
