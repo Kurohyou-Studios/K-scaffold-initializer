@@ -109,6 +109,8 @@ Distributed under the mit License. See [LICENSE.txt](LICENSE.txt) for more infor
 <!-- CONTACT -->
 
 ## Changelog
+v1.1.1
+- Fixed a problem with the generated package.json
 v1.1.0
 - Updated to support v1.1.x of the K-scaffold
 
