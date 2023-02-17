@@ -70,54 +70,18 @@ While not required for this module to function, the folder structure that it cre
 
 ### Installation
 
-Install the script globally to have access to the CLI keyword `k-init`.
-```
-npm i -g @kurohyou/k-init
+The initializer should be run remotely from NPM to ensure that you are always using the most up to date version:
+```cli
+> npx @kurohyou/k-init@latest
 ```
 <p align="right">(<a href="#top">back to top</a>)</p>
 <!-- USAGE EXAMPLES -->
 
 ## Usage
 
-Once installed globally, simply use the `k-init` cli command to begin project initialization.
+Once you run the initializer, project initialization will begin.
 
-The initializer will create the following folder structure:
-```
-./
-├─ build/
-│ ├─ assets/
-│ │ └─ images/
-│ └─ sheet.json
-├─ source/
-│ ├─ assets/
-│ │ ├─ js/
-│ │ │ ├─ __tests__/
-│ │ │ └─ _index.pug
-│ │ ├─ pug/
-│ │ │ ├─ articles/
-│ │ │ │ └─ _index.pug
-│ │ │ ├─ mixins/
-│ │ │ │ └─ _index.pug
-│ │ │ ├─ rolltemplates/
-│ │ │ │ └─ _index.pug
-│ │ │ └─ spines/
-│ │ │   └─ _index.pug
-│ │ └─ scss/
-│ │   ├─ general/
-│ │   │ └─ _index.scss
-│ │   ├─ sections/
-│ │   │ └─ _index.scss
-│ │   ├─ variables/
-│ │   │ └─ _system.scss
-│ │   ├─ _generalsetup.scss
-│ │   └─ _rolltemplate.scss
-│ ├─ sheet_name.pug
-│ └─ sheet_name.scss
-├─ generator.js
-├─ package.json
-└─ nodemon.json
-```
-The initializer will also give you the option of auto installing the node modules that are recommended for a K-scaffold project, in which case a `node_modules` directory will also be created as normal for running `npm i`.
+The initializer will also give you the option of auto installing the node modules that are recommended for a K-scaffold project, in which case a `node_modules` directory will be created as normal for running `npm i`.
 <p align="right">(<a href="#top">back to top</a>)</p>
 <!-- ROADMAP -->
 
@@ -143,6 +107,11 @@ Don't forget to give the project a star! Thanks again!
 Distributed under the mit License. See [LICENSE.txt](LICENSE.txt) for more information.
 <p align="right">(<a href="#top">back to top</a>)</p>
 <!-- CONTACT -->
+
+## Changelog
+v1.1.0
+- Updated to support v1.1.x of the K-scaffold
+
 
 ## Contact
 
