@@ -85,39 +85,31 @@ The initializer will create the following folder structure:
 ```
 ./
 ├─ build/
-│ ├─ assets/
-│ │ └─ images/
-│ └─ sheet.json
 ├─ source/
-│ ├─ assets/
-│ │ ├─ js/
-│ │ │ ├─ __tests__/
-│ │ │ └─ _index.pug
-│ │ ├─ pug/
-│ │ │ ├─ articles/
-│ │ │ │ └─ _index.pug
-│ │ │ ├─ mixins/
-│ │ │ │ └─ _index.pug
-│ │ │ ├─ rolltemplates/
-│ │ │ │ └─ _index.pug
-│ │ │ └─ spines/
-│ │ │   └─ _index.pug
-│ │ └─ scss/
-│ │   ├─ general/
-│ │   │ └─ _index.scss
-│ │   ├─ sections/
-│ │   │ └─ _index.scss
-│ │   ├─ variables/
-│ │   │ └─ _system.scss
-│ │   ├─ _generalsetup.scss
-│ │   └─ _rolltemplate.scss
+│ ├─ articles/
+│ │ └─_settings.pug
+│ ├─ javascript/
+│ │ └─_index.pug
+│ ├─ mixins/
+│ │ └─_index.pug
+│ ├─ rolltemplate/
+│ │ └─_index.pug
+│ ├─ scss/
+│ │ ├─ sections/
+│ │ │ └─_index.scss
+│ │ ├─ components/
+│ │ │ └─_index.scss
+│ │ ├─ _index.scss
+│ │ ├─ _general.scss
+│ │ ├─ _variables.scss
+│ │ ├─ _fonts.scss
+│ │ ├─ _index.scss
 │ ├─ sheet_name.pug
 │ └─ sheet_name.scss
-├─ generator.js
+├─ k.config.mjs
 ├─ package.json
-└─ nodemon.json
+└─ jsconfig.json
 ```
-The initializer will also give you the option of auto installing the node modules that are recommended for a K-scaffold project, in which case a `node_modules` directory will also be created as normal for running `npm i`.
 <p align="right">(<a href="#top">back to top</a>)</p>
 <!-- ROADMAP -->
 
