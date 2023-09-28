@@ -144,6 +144,15 @@ Distributed under the mit License. See [LICENSE.txt](LICENSE.txt) for more infor
 <p align="right">(<a href="#top">back to top</a>)</p>
 <!-- CONTACT -->
 
+## Changelog
+v2.0.0
+- Updated to support v2 K-scaffold
+v1.1.1
+- Fixed a problem with the generated package.json
+v1.1.0
+- Updated to support v1.1.x of the K-scaffold
+
+
 ## Contact
 
 Scott Casey - [@kurohyoustudios](https://twitter.com/kurohyoustudios) - scaseydv@gmail.com
