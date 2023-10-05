@@ -1,0 +1,11 @@
+@use 'k-scaffold' as k;
+
+@mixin all {
+  @include k.variables;
+  // Customize your variables here
+}
+
+@mixin dark {
+  @include k.darkMode;
+  // Customize your darkmode variable states and styling here.
+}

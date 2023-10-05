@@ -5,7 +5,12 @@
 // Change rolltemplate class name to match project's rolltemplate.
 .sheet-rolltemplate-template-name{
   @include variables.all;
-  @include k.defaultStyles;
-  @include components.all;
+  &.sheet-rolltemplate-darkmode{
+    @include variables.dark;
+  }
+  .sheet-template{
+    @include k.defaultStyles;
+    @include components.all;
+  }
   // Additional styling as needed here.
 }

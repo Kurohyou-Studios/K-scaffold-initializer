@@ -6,6 +6,6 @@
 }
 
 @mixin dark {
-  @include k.darkmode;
+  @include k.darkMode;
   // Customize your darkmode variable states and styling here.
 }

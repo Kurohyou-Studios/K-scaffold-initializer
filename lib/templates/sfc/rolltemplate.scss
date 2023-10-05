@@ -1,0 +1,17 @@
+// ./scss/_rolltemplate.scss
+@use 'k-scaffold' as k;
+@use './scss';
+// use the K-scaffold's sfc export:
+@use 'sfc';
+.sheet-rolltemplate-project-name{
+  @include scss.variables;
+  &.sheet-rolltemplate-darkmode{
+    @include scss.darkVariables;
+  }
+  .sheet-template{
+    @include k.defaultRollStyling;
+    @include scss.roll;
+    @include sfc.roll;
+    // Additional styling as needed here.
+  }
+}
