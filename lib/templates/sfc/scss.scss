@@ -1,0 +1,18 @@
+@use './variables';
+@mixin variables{
+  @include variables.all;
+}
+@mixin darkVariables {
+  @include variables.dark;
+}
+@mixin generic{
+  // Put generic styling that will be used in both the sheet and the roll template here
+}
+@mixin sheet{
+  @include generic;
+  // Put your generic sheet styling here
+}
+@mixin roll{
+  @include generic;
+  // Put any generic roll template styling you have here
+}

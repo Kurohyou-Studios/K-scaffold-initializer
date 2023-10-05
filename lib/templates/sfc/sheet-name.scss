@@ -1,0 +1,50 @@
+// Import our fonts;
+@use './scss/fonts';
+
+// Use the k-scaffold and assign it to the alias "k"
+@use 'k-scaffold' as k;
+// use any generic scss we might need.
+@use './scss';
+// use the K-scaffold's sfc export:
+@use 'sfc';
+
+// Use roll template styling
+@use './rolltemplate';
+
+
+html {
+  // Specify the base font size of the sheet
+  // This affects what 1rem is equal to as well as what the inherited font sizes are.
+  font-size: 16px;
+}
+body{
+  @include scss.variables;
+  // While these SHOULD be inherited from the html, we need to override some Roll20 styling
+  color: var(--fontColor);
+  font-size: 1rem;
+  .ui-dialog{
+    .nav-tabs {
+      // Apply positioning to the Roll20 sheet nav bar so the 
+      // nav bar sticks to the top of the sheet.
+      // Remove the next 4 lines if you don't want this behavior
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      background-color:var(--backColor);
+      a{
+        // extend our font selection to the Roll20 interface
+        font-family:var(--font3);
+      }
+    }
+    .tab-content{
+      .charsheet{
+        @include k.defaultStyles;
+        @include scss.sheet;
+        @include sfc.sheet;
+      }
+    }
+  }
+  &.sheet-darkmode{
+    @include scss.darkVariables;
+  }
+}
