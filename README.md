@@ -137,6 +137,8 @@ Distributed under the mit License. See [LICENSE.txt](LICENSE.txt) for more infor
 <!-- CONTACT -->
 
 ## Changelog
+v2.0.1
+- Removed erroneous old boilerplate content
 v2.0.0
 - Updated to support v2 K-scaffold
 v1.1.1

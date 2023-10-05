@@ -1,6 +1,5 @@
 include k-scaffold
 include ./mixins/_index.pug
-include ./spines/_index.pug
 - const templateName = '{{sheet-name}}';
 //- sheet_state will contain which display of the sheet is currently enabled
 +hidden({name:'sheet version',value:0})
@@ -12,7 +11,7 @@ main#main
     //- Add additional tabs as needed
 //- An input to contain template fields that should always be output with a roll.
 +hidden({name:'template start',value:`@{whisper}&{template:${templateName}} {{character_name=@{character_name}}} {{character_id=@{character_id}}}`})
-include mixins/_rolltemplate.pug
+include rolltemplate/_index.pug
 +kscript('{{sheet-name}}')
   //- All additional javascript files should start here
   include ./javascript/_index.pug
