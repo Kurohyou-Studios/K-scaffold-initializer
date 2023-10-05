@@ -1,6 +1,6 @@
 on:
   workflow_dispatch:
-name: Release
+name: Manual Release
 
 jobs:
   build:
