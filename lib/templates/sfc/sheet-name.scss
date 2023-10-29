@@ -3,10 +3,13 @@
 
 // Use the k-scaffold and assign it to the alias "k"
 @use 'k-scaffold' as k;
-// use any generic scss we might need.
-@use './scss';
+// Use K-scaffold and custom font import
+@use 'googleFont';
 // use the K-scaffold's sfc export:
 @use 'sfc';
+
+// use any generic scss we might need.
+@use './scss';
 
 // Use roll template styling
 @use './rolltemplate';
