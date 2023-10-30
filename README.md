@@ -137,14 +137,21 @@ Distributed under the mit License. See [LICENSE.txt](LICENSE.txt) for more infor
 <!-- CONTACT -->
 
 ## Changelog
+v2.1.1
+- Fixed an error in the master pug template that removed the sheet state attribute required for tabs to function.
+
 v2.1.0
 - Updated initializer to offer project setup for sfc based project or standard project
+
 v2.0.1
 - Removed erroneous old boilerplate content
+
 v2.0.0
 - Updated to support v2 K-scaffold
+
 v1.1.1
 - Fixed a problem with the generated package.json
+
 v1.1.0
 - Updated to support v1.1.x of the K-scaffold
 
