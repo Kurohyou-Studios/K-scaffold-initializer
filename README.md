@@ -137,8 +137,11 @@ Distributed under the mit License. See [LICENSE.txt](LICENSE.txt) for more infor
 <!-- CONTACT -->
 
 ## Changelog
-v2.1.1
+v2.1.2
 - Fixed an error in the master pug template that removed the sheet state attribute required for tabs to function.
+
+v2.1.1
+- Support for the googleFont mixin.
 
 v2.1.0
 - Updated initializer to offer project setup for sfc based project or standard project
