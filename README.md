@@ -137,6 +137,9 @@ Distributed under the mit License. See [LICENSE.txt](LICENSE.txt) for more infor
 <!-- CONTACT -->
 
 ## Changelog
+v2.1.3
+- Removed extraneous pug lines
+
 v2.1.2
 - Fixed an error in the master pug template that removed the sheet state attribute required for tabs to function.
 
