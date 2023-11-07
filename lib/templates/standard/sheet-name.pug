@@ -1,8 +1,6 @@
 include k-scaffold
 include ./mixins/_index.pug
 - const templateName = '{{sheet-name}}';
-//- sheet_state will contain which display of the sheet is currently enabled
-+hidden({name:'sheet state',value:'settings'})
 //- Stores the sheet version number for use with version control functions
 +hidden({name:'sheet version',value:0})
 //- Now, for our actual sheet. We'll wrap this in a main element and give it an ID of main.
