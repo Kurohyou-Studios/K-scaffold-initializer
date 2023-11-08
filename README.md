@@ -137,6 +137,9 @@ Distributed under the mit License. See [LICENSE.txt](LICENSE.txt) for more infor
 <!-- CONTACT -->
 
 ## Changelog
+v2.1.4
+- Fixed crash caused by incorrect sfc template reference
+
 v2.1.3
 - Removed extraneous pug lines
 
