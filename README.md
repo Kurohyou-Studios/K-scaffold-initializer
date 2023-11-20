@@ -137,6 +137,9 @@ Distributed under the mit License. See [LICENSE.txt](LICENSE.txt) for more infor
 <!-- CONTACT -->
 
 ## Changelog
+v2.2.0
+- Added `k.config.js` sfc option use.
+
 v2.1.5
 - Removed last references to `scss/fonts.scss` from sfc templates
 
