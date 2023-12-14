@@ -27,7 +27,7 @@
   "homepage": "https://github.com/Kurohyou-Studios/K-scaffold-initializer#readme",
   "dependencies": {
     "colors": "^1.4.0",
-    "i18nreplacer": "file:../i18nReplacer",
+    "i18nreplacer": "^1.0.0",
     "inquirer": "^8.2.3",
     "require-text": "^0.0.1"
   },
