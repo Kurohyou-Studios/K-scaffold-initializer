@@ -137,6 +137,9 @@ Distributed under the mit License. See [LICENSE.txt](LICENSE.txt) for more infor
 <!-- CONTACT -->
 
 ## Changelog
+v2.3.1
+- Update to 1.0.1 of i18nReplacer to fix error with overwriting existing data-i18n attributes
+
 v2.3.0
 - Added ability to translate existing projects
 
