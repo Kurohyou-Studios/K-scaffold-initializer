@@ -41,6 +41,14 @@ body{
         @include k.defaultStyles;
         @include scss.sheet;
         @include sfc.sheet;
+        
+        // Dark mode styling normally keeps a light colored sheet.  If you want
+        // a dark sheet, uncomment the following lines:
+        //
+        // background-color: var(--backColor);
+        // label {
+        //     color: var(--fontColor);
+        // }
       }
     }
   }
