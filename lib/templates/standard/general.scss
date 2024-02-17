@@ -35,6 +35,15 @@ body{
         // Include the styles for each of our components and sections. Note that sections are listed last so that they override the component styles if necessary.
         @include components.all;
         @include sections.all;
+
+        // Dark mode styling normally keeps a light colored sheet.  If you want
+        // a dark sheet, uncomment the following lines:
+        //
+        // background-color: var(--backColor);
+        // label {
+        //     color: var(--fontColor);
+        // }
+
         // Do any other generic styling that you need for your project
       }
     }
